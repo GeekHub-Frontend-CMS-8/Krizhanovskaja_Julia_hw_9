@@ -468,7 +468,8 @@ optgroup {
     height: 100%; }
 
 .clients {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 100px; }
 
 .clients__q {
   padding: 60px 0;
@@ -571,6 +572,11 @@ optgroup {
   display: flex;
   flex-wrap: wrap; }
 
+.map {
+  max-width: 800px;
+  width: 50%;
+  height: 650px; }
+
 .contact-form-block {
   background-image: url("../img/background3.jpg");
   background-size: cover;
@@ -585,6 +591,9 @@ optgroup {
   flex-direction: column;
   align-items: center;
   opacity: 0.7; }
+
+.form-block__element {
+  padding: 25px; }
 
 .form-block__item {
   width: 300px;
@@ -625,9 +634,11 @@ optgroup {
   align-items: center; }
 
 .footer-logo-block__text {
+  padding-left: 25px;
   color: #29323c;
   fonr: 400 14px/22px "Open Sans"; }
 
 .footer-social-block_text {
+  padding-right: 20px;
   color: #29323c;
   font: 400 14px/22px "Open Sans"; }
